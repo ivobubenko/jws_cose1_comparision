@@ -1,0 +1,29 @@
+{
+  "name": "experiment",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/ivobubenko/jws_cose1_comparision#readme",
+  "bugs": {
+    "url": "https://github.com/ivobubenko/jws_cose1_comparision/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ivobubenko/jws_cose1_comparision.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "main": "index.js",
+  "dependencies": {
+    "base64url": "^3.0.1",
+    "base45": "^2.0.1",
+    "cbor": "^10.0.11",
+    "jws": "^4.0.0"
+  },
+  "scripts": {
+    "measurements": "node scripts/generate-measurements.js",
+    "start": "node index.js",
+    "test": "node --test",
+    "test:watch": "node --test --watch"
+  }
+}
