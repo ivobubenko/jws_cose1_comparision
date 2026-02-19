@@ -13,17 +13,14 @@
   "license": "ISC",
   "author": "",
   "type": "module",
-  "main": "index.js",
-  "dependencies": {
-    "base64url": "^3.0.1",
-    "base45": "^2.0.1",
-    "cbor": "^10.0.11",
-    "jws": "^4.0.0"
-  },
+  "main": "claims.js",
   "scripts": {
-    "measurements": "node scripts/generate-measurements.js",
-    "start": "node index.js",
-    "test": "node --test",
-    "test:watch": "node --test --watch"
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@zxing/library": "^0.21.3",
+    "base45": "^2.0.1",
+    "cbor2": "^2.2.1",
+    "jws": "^4.0.1"
   }
 }
